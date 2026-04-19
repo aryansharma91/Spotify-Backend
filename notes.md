@@ -2,7 +2,7 @@
 
 cd backend
 npm init -y
-npm install express dotenv jsonwebtoken cookie-parser 
+npm install express dotenv jsonwebtoken cookie-parser bcryptjs
 
 
 
@@ -35,4 +35,25 @@ npm install express dotenv jsonwebtoken cookie-parser
 7. auth.routes.js file - sabhi APIs auth se related hogi 
 
 
+## $or operator in mongodb
+$or is a logical operator in MongoDB used to match documents where at least one condition is true.
 
+## for creating a jwt token we need secret key
+this eye is obtained through the visiting webstite jwtsecrets.com
+
+## Jab token create karte hai toh usme 
+2 properties honi chahiye 
+1 toh user ka data , 2 unique data
+
+## What is Password Hashing?
+
+Password hashing means converting a normal password into a random-looking, unreadable string before saving it in the database.
+
+## hashing have 2 properties
+1. we give plaintext and we get always hash (hamesha same input denge same output milega)
+2. we can't conver hast into plaintext
+
+## hum hamesha password ko database me hash me convert karke store karke rakhte hai
+
+## for applying HASHING we install package
+npm i bcryptjs
