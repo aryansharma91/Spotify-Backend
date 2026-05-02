@@ -8,4 +8,4 @@ app.use(cookieParser()); // It allows your server to read cookies from the reque
 
 app.use("/api/auth", authRoutes);
 
-module.exports = app;
+module.exports = app; 

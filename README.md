@@ -122,10 +122,7 @@ The server will start on `http://localhost:3000` (or the port defined in `.env`)
 
 ---
 
-## 📄 License
 
-This project is licensed under the **ISC License**.
 
----
 
 > Built with ❤️ as a learning project to understand full-stack development with the MERN stack.
