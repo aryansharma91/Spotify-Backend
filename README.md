@@ -120,10 +120,3 @@ The server will start on `http://localhost:3000` (or the port defined in `.env`)
 4. Push to the branch: `git push origin feature/your-feature`
 5. Open a Pull Request
 
----
-
-
-
-
-> Built with ❤️ as a learning project to understand full-stack development with the MERN stack.
- s
