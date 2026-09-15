@@ -57,3 +57,6 @@ Password hashing means converting a normal password into a random-looking, unrea
 
 ## for applying HASHING we install package
 npm i bcryptjs
+
+
+-----fummy
